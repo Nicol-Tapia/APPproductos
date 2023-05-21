@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appproductos.NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/hint_nombre"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/precio"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:inputType="phone"
+            android:labelFor="@+id/viewPrecio"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/cantidad"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCantidad"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/lugar"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewLugar"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/categoria"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/andika"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCategoria"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#5E35B1"
+            android:fontFamily="@font/andika"
+            android:text="@string/btn_guarda"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

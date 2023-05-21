@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppProductos</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="elija_una_opci_n">elija una opción</string>
+    <string name="lista_de_productos">lista de productos</string>
+    <string name="lista_de_compras">Lista de Compras</string>
+    <string name="lugares_de_inter_s">Lugares de Interés</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="salir">salir</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="lugar">Lugar</string>
+    <string name="categoria">Categoria</string>
+    <string name="nombre">Nombre:</string>
+</resources>

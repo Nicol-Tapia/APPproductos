@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.appproductos.VerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/nombre"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/average"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/precio"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/average"
+            android:inputType="phone"
+            android:labelFor="@+id/viewPrecio"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/cantidad"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/average"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCategoria"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/lugar"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/average"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewLugar"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/categoria"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/average"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCategoria"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#5E35B1"
+            android:fontFamily="@font/average"
+            android:text="@string/btn_guarda"
+            android:textColor="#FFFFFF" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_edit"
+            app:backgroundTint="#5E35B1" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_delete"
+            app:backgroundTint="#5E35B1" />
+
+    </LinearLayout>
+<!--
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        tools:ignore="BottomAppBar">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_edit" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>-->
+</LinearLayout>

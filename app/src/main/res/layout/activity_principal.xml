@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE0E0"
+    tools:context="com.example.appproductos.Principal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/light_blue"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonListaProductos"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="52dp"
+        android:background="#2C5E35B1"
+        android:backgroundTint="#00F3F3F3"
+        android:fontFamily="@font/andika"
+        android:scrollbarSize="14dp"
+        android:text="@string/lista_de_productos"
+        android:textColor="#000000"
+        android:textColorLink="#5E35B1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/buttonListaCompras"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:background="#2C5E35B1"
+        android:backgroundTint="#00F3F3F3"
+        android:fontFamily="@font/andika"
+        android:scrollbarSize="14dp"
+        android:text="@string/lista_de_compras"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonListaProductos" />
+
+    <Button
+        android:id="@+id/buttonLugares"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="52dp"
+        android:background="#2C5E35B1"
+        android:backgroundTint="#00F3F3F3"
+        android:fontFamily="@font/andika"
+        android:scrollbarSize="14dp"
+        android:text="@string/lugares_de_inter_s"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonListaProductos" />
+
+    <Button
+        android:id="@+id/buttonPreferencias"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="52dp"
+        android:background="#2C5E35B1"
+        android:backgroundTint="#00F3F3F3"
+        android:fontFamily="@font/andika"
+        android:scrollbarSize="14dp"
+        android:text="@string/preferencias"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonListaProductos" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="52dp"
+        android:background="#2C5E35B1"
+        android:backgroundTint="#00F3F3F3"
+        android:fontFamily="@font/andika"
+        android:scrollbarSize="14dp"
+        android:text="@string/salir"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonListaProductos"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="252dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/elija_una_opci_n"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="246dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/nombre_usuario"
+        android:inputType="textPersonName"
+        android:textColor="#D36C6C6C"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="237dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        android:textColor="#D36C6C6C"
+        app:layout_constraintBottom_toTopOf="@+id/ingresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="162dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="142dp"
+        android:backgroundTint="#6C00CB"
+        android:fontFamily="@font/andika"
+        android:text="@string/ingresar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/u" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
